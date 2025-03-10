@@ -8,3 +8,7 @@
 .label {
     -fx-text-fill: red;
 }
+
+.test {
+    -fx-font-size: 14px;
+}

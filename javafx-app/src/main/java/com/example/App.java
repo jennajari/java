@@ -6,12 +6,12 @@ import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
-public class FXMLApp extends Application {
+public class App extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
         // Charger l'interface FXML
-        VBox root = FXMLLoader.load(getClass().getResource("/interface.fxml"));
+        VBox root = FXMLLoader.load(getClass().getResource("/layout/App.fxml"));
 
         // Créer la scène et afficher la fenêtre
         Scene scene = new Scene(root, 300, 200);
